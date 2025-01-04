@@ -1,0 +1,30 @@
+.cardType2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 24rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    width: 25rem;
+    background-color: white;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 0px 10px;
+    box-shadow: .1px .1px 10px .1px rgb(194, 194, 194);
+    img{
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+
+}
+
+.card-body .description{
+    height: 25%;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box; /* Display as WebKit box */
+    -webkit-box-orient: vertical; /* Set the orientation to vertical */
+    -webkit-line-clamp: 3;
+}
+.cardType2Image {
+    width: 50%;
+}

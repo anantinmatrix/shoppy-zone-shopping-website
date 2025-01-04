@@ -1,0 +1,32 @@
+.cardType3{
+    height: 25rem;
+    width: 15em;
+    border-radius: 8px;
+    box-shadow: .1px .1px 4px rgb(218, 218, 218);
+
+}
+.cardBody{
+    height: 100%;
+    width: 100% !important;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image{
+    /* height: 50%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        height: 12em;
+        width: 8em !important;
+        object-fit: contain !important;
+    }
+}
+.cardContent{
+    height: 50%;
+    padding-top: 20px;
+}

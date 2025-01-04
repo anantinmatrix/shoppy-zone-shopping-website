@@ -1,0 +1,5 @@
+When starting the server 
+Ensure that you comment out the seedProducts function in the 'backend/server.js' to ensure that the sample products only seed into database when you first start the server.
+
+Change mongo connection url according to your url.
+

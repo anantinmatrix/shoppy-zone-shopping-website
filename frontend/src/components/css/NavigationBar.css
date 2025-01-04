@@ -1,0 +1,75 @@
+.navigationBar{
+    background-color: rgb(8, 8, 75);
+    color: white;
+    padding: 1em 5em;
+    width: 100%;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    hr{
+        width: 101%;
+        transform: translateX(-.5%);
+    }
+}
+.dropdown-menu{
+    a{
+        color: black
+    }
+}
+.fa-bag-shopping{
+    font-size: 30px;
+}
+.fa-user,.fa-cart-shopping{
+    font-size: 24px;
+}
+
+.searchForm{
+    overflow: hidden;
+    border-radius: 5px;
+    input{
+        border: none;
+        border-radius: 0;
+    }
+    button{
+        background-color: white;
+        color: black;
+        border-radius: 0;
+        border: none;
+        border-left: 1px solid gainsboro;
+    }
+    button:hover{
+        background-color: #2d8fff;
+        color: white;
+    }
+}
+.lastNav{
+    background-color: #2d8fff;
+    padding: .5rem 8rem;
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 0;
+    }
+    li{
+        margin: 0;
+    }
+    i{
+        font-size: 20px;
+    }
+}
+.cartIcon{
+    position:relative;
+
+}
+.cartIndicator{
+    position: absolute;
+    top: -15px;
+    right: -25px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: red;
+}

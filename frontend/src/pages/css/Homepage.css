@@ -1,0 +1,11 @@
+.homepage{
+    padding: 10px 5rem;
+}
+.secondContainer{
+    flex-wrap: wrap;
+}
+.thirdContainer .items{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}

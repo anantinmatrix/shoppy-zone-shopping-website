@@ -1,0 +1,31 @@
+.cardType1 {
+  position: relative;
+  transition: all 0.3s ease;
+  img {
+    height: 40vh;
+    width: 100%;
+    filter: brightness(55%);
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+  .cardContent {
+    position: absolute;
+    /* width: 100%; */
+    padding: 5px 10px;
+    font-size: 20px;
+    z-index: 10;
+    color: white;
+    top: 5%;
+    left: 0;
+    text-align: center;
+  }
+  p,
+  h4 {
+    width: 100%;
+  }
+}
+.cardType1:hover {
+  img {
+    filter: brightness(40%);
+  }
+}

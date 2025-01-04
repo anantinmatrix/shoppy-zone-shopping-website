@@ -1,0 +1,21 @@
+.notification{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.notificationBox{
+    background-color: rgba(255, 255, 255, 0.849);
+    backdrop-filter: blur(30px) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    padding: 12px 15px!important;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    opacity: 01;
+}
+.message{
+    width: 70%;
+}

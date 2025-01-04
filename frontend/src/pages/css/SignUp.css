@@ -1,0 +1,33 @@
+.signUp{
+    height: 100vh;
+    color: black;
+
+    a{
+        text-decoration: none !important;
+        color: #f3b04c !important;
+    }
+}
+.signUpForm{
+    width: 50% !important;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.473) !important;
+    border: none !important;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px 30px !important;
+    margin-bottom: 20px !important;
+    align-items: center;
+    justify-content: space-around;
+
+    input{
+        background-color: rgba(240, 240, 240, 0.911);
+        border: none;
+        outline: none;
+    }
+
+    button{
+        background-color: #ffb951;
+        border: none;
+    }
+    
+}
